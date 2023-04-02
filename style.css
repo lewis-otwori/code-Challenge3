@@ -1,0 +1,66 @@
+body{
+    background-color: #FFEBCD;
+    opacity: 1;
+    }
+    
+    .navbar{
+    background: #F08080;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    }
+    
+    .navbar h2{
+    color: black;
+    font-weight: bold;
+    margin: 0;
+    font-size: 2rem;
+    text-shadow: 2px 2px 2px #000000;
+    }
+    
+    .navbar h3{
+    font-style: italic;
+    margin: 0;
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 1px #000000;
+    }
+    
+    #tickets{
+    background: #FFFFFF;
+    color: black;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 2px 2px 2px #A9A9A9;
+    border-radius: 10px;
+    }
+    
+    p{
+    font-style: italic;
+    color: #696969;
+    }
+    
+    #moviePoster{
+        float: left;
+        margin-right: 1rem;
+        margin-bottom: 1rem;
+        box-shadow: 2px 2px 2px #A9A9A9;
+        border-radius: 10px;
+        }
+    
+    button{
+    margin-right: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: #20B2AA;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    box-shadow: 2px 2px 2px #A9A9A9;
+    }
+    

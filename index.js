@@ -9,8 +9,8 @@ fetch("http://localhost:3000/films")
     let imageElement = document.createElement("img");
     imageElement.src = firstFilm.poster;
     imageElement.alt = "Poster image";
-    imageElement.width = "400";
-    imageElement.height = "400";
+    imageElement.width = "600";
+    imageElement.height = "600";
     posterDiv.appendChild(imageElement);
     //display title of first film
     const moreDetails = document.getElementById("moreDetails");
@@ -69,8 +69,8 @@ function filmDetails(details) {
     let imageElement = document.createElement("img");
     imageElement.src = firstFilm.poster;
     imageElement.alt = "Poster image";
-    imageElement.width = "400";
-    imageElement.height = "400";
+    imageElement.width = "600";
+    imageElement.height = "600";
     posterDiv.innerHTML = "";
     posterDiv.appendChild(imageElement);
     //display title of first film
